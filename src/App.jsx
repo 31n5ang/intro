@@ -1,8 +1,15 @@
 import React from "react";
+import Header from "./Header";
+import Content from "./Content";
+import Footer from "./Footer";
 
 function App(props) {
     return (
-        <h1>Hello World</h1>
+        <div>
+            <Header />
+            <Content />
+            <Footer />
+        </div>
     );
 }
 
