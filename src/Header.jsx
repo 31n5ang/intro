@@ -3,9 +3,11 @@ import React from "react";
 function Header(props) {
     return (
         <div>
-            <h1>테스트용 Header인데요</h1>
+            <center style={{fontSize: "70px", marginTop: "30px"}}>
+                🧑🏻‍💻
+            </center>
         </div>
-    )
+    );
 }
 
 export default Header;
