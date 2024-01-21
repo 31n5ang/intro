@@ -37,7 +37,7 @@ function Content(props) {
                     hideHeader
                     customBlockComponents={{
                         page: ({ blockValue, renderComponent }) => (
-                            <Link to={`/${blockValue.id}`}>
+                            <Link to={`intro/${blockValue.id}`}>
                                 {blockValue.properties.title[0]}
                             </Link>
                         )

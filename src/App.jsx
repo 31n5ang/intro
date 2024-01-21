@@ -8,8 +8,8 @@ function App(props) {
         <BrowserRouter>
             <Header />
             <Routes>
-                <Route path={`/`} element={<Content />} />
-                <Route path={`/:notionPageId`} element={<Content />} />
+                <Route path={`intro/`} element={<Content />} />
+                <Route path={`intro/:notionPageId`} element={<Content />} />
             </Routes>
             <Footer />
         </BrowserRouter>
