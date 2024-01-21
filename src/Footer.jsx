@@ -2,7 +2,8 @@ import React from "react";
 
 function Footer(props) {
     return (
-        <div style={{marginTop: "30px"}}>
+        <div style={{marginBottom: "30px"}}>
+            <center>송민상<br /> 31n5ang@gmail.com</center>
         </div>
     );
 }
