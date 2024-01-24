@@ -37,14 +37,14 @@ function Content(props) {
                     hideHeader
                     customBlockComponents={{
                         page: ({ blockValue, renderComponent }) => (
-                            <Link to={`intro/${blockValue.id}`}>
+                            <Link to={`${blockValue.id}`}>
                                 {blockValue.properties.title[0]}
                             </Link>
                         )
                     }}
                 />)
                 : (
-                    "불러오는 중입니다.."
+                    <center>"불러오는 중입니다.."</center>
                 )
             }
         </div>
